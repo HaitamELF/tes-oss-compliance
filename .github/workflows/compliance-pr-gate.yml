@@ -3,6 +3,10 @@ name: compliance-pr-gate
 on:
   pull_request:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   pr-gate:
     uses: HaitamELF/org-oss-compliance/.github/workflows/reusable-pr-gate.yml@main
