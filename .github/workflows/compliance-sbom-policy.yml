@@ -9,6 +9,6 @@ on:
 
 jobs:
   sbom-policy:
-    uses: org/oss-compliance/.github/workflows/reusable-sbom-policy.yml@v1
+    uses: HaitamELF/org-oss-compliance/.github/workflows/reusable-sbom-policy.yml@v1
     with:
       upload_sbom: true

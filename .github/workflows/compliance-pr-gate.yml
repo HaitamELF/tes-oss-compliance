@@ -5,4 +5,4 @@ on:
 
 jobs:
   pr-gate:
-    uses: org/oss-compliance/.github/workflows/reusable-pr-gate.yml@main
+    uses: HaitamELF/org-oss-compliance/.github/workflows/reusable-pr-gate.yml@main
