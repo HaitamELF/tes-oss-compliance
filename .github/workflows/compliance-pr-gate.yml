@@ -1,0 +1,8 @@
+name: compliance-pr-gate
+
+on:
+  pull_request:
+
+jobs:
+  pr-gate:
+    uses: org/oss-compliance/.github/workflows/reusable-pr-gate.yml@main
